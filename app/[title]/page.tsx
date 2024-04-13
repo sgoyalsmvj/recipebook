@@ -43,7 +43,7 @@ export default function RecipePage() {
       <Typography className="my-8 mx-16">
         <div className="flex  items-center justify-start">
           <Typography.Title level={1}>{recipe.title}</Typography.Title>
-          <Link className="m-2" href={`/edit/${recipe.title}`}>
+          <Link className="m-2" href={`/editrecipe/${recipe.title}`}>
             <EditOutlined className="text-xl" />
           </Link>
         </div>

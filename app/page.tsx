@@ -9,13 +9,14 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [recipes, setRecipes] = useState<Recipe[]>([]);
-
+  
   useEffect(() => {
     const localRecipes = localStorage.getItem("recipes");
     if (localRecipes) {
       setRecipes(JSON.parse(localRecipes));
     } else {
       // Set recipes to recipesData only if there are no recipes in localStorage
+      localStorage.setItem("recipes", JSON.stringify(recipesData));
       setRecipes(recipesData);
     }
   }, []);
