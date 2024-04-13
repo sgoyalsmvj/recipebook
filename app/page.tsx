@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [recipes, setRecipes] = useState<Recipe[]>([]);
-  
+
   useEffect(() => {
     const localRecipes = localStorage.getItem("recipes");
     if (localRecipes) {
