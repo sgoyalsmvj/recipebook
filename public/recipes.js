@@ -1,5 +1,43 @@
 const recipes = [
   {
+    title: "Samosa",
+    description:
+      "Crispy and flavorful triangular pastries filled with spiced potatoes and peas, perfect as a savory snack or appetizer.",
+    image:
+      "https://static01.nyt.com/images/2021/04/07/dining/02samosasrex2/merlin_185734716_700df244-d552-4173-830d-6b351b47a113-master768.jpg?w=1280&q=75",
+    ingredients: [
+      { name: "Potatoes", quantity: "3 medium, boiled and mashed" },
+      { name: "Peas", quantity: "1/2 cup, boiled" },
+      { name: "Onion", quantity: "1 large, finely chopped" },
+      { name: "Green chili", quantity: "2, finely chopped" },
+      { name: "Ginger", quantity: "1-inch piece, grated" },
+      { name: "Coriander leaves", quantity: "2 tablespoons, chopped" },
+      { name: "Cumin seeds", quantity: "1 teaspoon" },
+      { name: "Coriander powder", quantity: "1 teaspoon" },
+      { name: "Garam masala", quantity: "1/2 teaspoon" },
+      { name: "Turmeric powder", quantity: "1/4 teaspoon" },
+      { name: "Salt", quantity: "To taste" },
+      { name: "Oil", quantity: "2 tablespoons" },
+      { name: "Water", quantity: "As needed" },
+      { name: "Pastry sheets or dough", quantity: "12 sheets or as needed" },
+    ],
+    cookingMethod: [
+      " Heat oil in a pan over medium heat. Add cumin seeds and let them splutter.",
+      " Add finely chopped onions, green chilies, and grated ginger. Saute until onions turn translucent.",
+      " Add boiled and mashed potatoes, boiled peas, coriander powder, garam masala, turmeric powder, and salt. Mix well and cook for 2-3 minutes.",
+      " Add chopped coriander leaves and mix. Remove from heat and let the mixture cool down.",
+      " Take one pastry sheet or portion of dough and roll it out into a thin circle or rectangle.",
+      " Cut the rolled-out sheet into two halves to form semi-circles or rectangles.",
+      " Take one semi-circle or rectangle and fold it into a cone shape, sealing the edges with water.",
+      " Stuff the cone with the prepared potato and pea mixture and seal the open end by applying water and pressing gently.",
+      " Repeat the process with the remaining pastry sheets or dough and filling.",
+      " Heat oil in a deep frying pan over medium heat. Once hot, gently slide in the stuffed samosas and fry until golden brown and crispy.",
+      " Remove the fried samosas from the oil and drain excess oil on paper towels.",
+      " Serve hot with mint chutney or tamarind chutney.",
+      " Enjoy your delicious homemade Samosas!",
+    ],
+  },
+  {
     title: "Classic Caesar Salad",
     description:
       "A refreshing salad made with crisp romaine lettuce, crunchy croutons, tangy Caesar dressing, and grated Parmesan cheese.",
@@ -12,19 +50,19 @@ const recipes = [
       { name: "Parmesan cheese", quantity: "1/2 cup" },
     ],
     cookingMethod: [
-      "1. Wash and dry the romaine lettuce thoroughly.",
-      "2. Tear the lettuce leaves into bite-sized pieces and place them in a large salad bowl.",
-      "3. Add the croutons, Caesar dressing, and grated Parmesan cheese to the bowl.",
-      "4. Toss everything together until the lettuce is evenly coated with the dressing and the other ingredients are well distributed.",
-      "5. Serve immediately as a refreshing appetizer or side dish."
-    ]
+      " Wash and dry the romaine lettuce thoroughly.",
+      " Tear the lettuce leaves into bite-sized pieces and place them in a large salad bowl.",
+      " Add the croutons, Caesar dressing, and grated Parmesan cheese to the bowl.",
+      " Toss everything together until the lettuce is evenly coated with the dressing and the other ingredients are well distributed.",
+      " Serve immediately as a refreshing appetizer or side dish.",
+    ],
   },
   {
     title: "Chicken Alfredo Pasta",
     description:
       "Creamy Alfredo sauce tossed with tender chicken breast and fettuccine pasta, garnished with parsley and grated Parmesan cheese.",
     image:
-      "https://www.recipetineats.com/wp-content/uploads/2017/03/One-Pot-Chicken-Alfredo-2.jpg?resize=900,1260",
+      "https://www.recipetineats.com/wp-content/uploads/2017/03/One-Pot-Chicken-Alfredo-jpg?resize=900,1260",
     ingredients: [
       { name: "Fettuccine pasta", quantity: "250g" },
       { name: "Chicken breast", quantity: "2, boneless and skinless" },
@@ -34,17 +72,17 @@ const recipes = [
       { name: "Parmesan cheese", quantity: "1/2 cup" },
     ],
     cookingMethod: [
-      "1. Cook the fettuccine pasta according to the package instructions until al dente. Drain and set aside.",
-      "2. Season the chicken breasts with salt and pepper.",
-      "3. In a large skillet, melt the butter over medium heat. Add the minced garlic and cook until fragrant.",
-      "4. Add the seasoned chicken breasts to the skillet and cook until golden brown on both sides and cooked through.",
-      "5. Remove the chicken from the skillet and set aside. In the same skillet, pour in the heavy cream and bring to a simmer.",
-      "6. Stir in the grated Parmesan cheese until melted and the sauce has thickened slightly.",
-      "7. Slice the cooked chicken breasts and return them to the skillet, tossing to coat them in the Alfredo sauce.",
-      "8. Add the cooked fettuccine pasta to the skillet and toss until evenly coated in the sauce.",
-      "9. Garnish with chopped parsley and additional grated Parmesan cheese, if desired.",
-      "10. Serve hot, and enjoy your creamy Chicken Alfredo Pasta!"
-    ]
+      " Cook the fettuccine pasta according to the package instructions until al dente. Drain and set aside.",
+      " Season the chicken breasts with salt and pepper.",
+      " In a large skillet, melt the butter over medium heat. Add the minced garlic and cook until fragrant.",
+      " Add the seasoned chicken breasts to the skillet and cook until golden brown on both sides and cooked through.",
+      " Remove the chicken from the skillet and set aside. In the same skillet, pour in the heavy cream and bring to a simmer.",
+      " Stir in the grated Parmesan cheese until melted and the sauce has thickened slightly.",
+      " Slice the cooked chicken breasts and return them to the skillet, tossing to coat them in the Alfredo sauce.",
+      " Add the cooked fettuccine pasta to the skillet and toss until evenly coated in the sauce.",
+      " Garnish with chopped parsley and additional grated Parmesan cheese, if desired.",
+      " Serve hot, and enjoy your creamy Chicken Alfredo Pasta!",
+    ],
   },
   {
     title: "Vegetable Stir-Fry",
@@ -64,21 +102,21 @@ const recipes = [
       { name: "Cooked rice", quantity: "2 cups, for serving" },
     ],
     cookingMethod: [
-      "1. Heat sesame oil in a large skillet or wok over medium-high heat.",
-      "2. Add minced garlic and grated ginger to the skillet, and cook until fragrant.",
-      "3. Add sliced carrots, bell peppers, broccoli florets, and snap peas to the skillet. Stir-fry for 4-5 minutes until vegetables are crisp-tender.",
-      "4. Pour soy sauce over the vegetables and stir to combine. Cook for an additional 1-2 minutes.",
-      "5. Remove the skillet from heat and serve the stir-fried vegetables over steamed rice.",
-      "6. Garnish with sesame seeds or sliced green onions, if desired.",
-      "7. Serve hot and enjoy your delicious Vegetable Stir-Fry!"
-    ]
+      " Heat sesame oil in a large skillet or wok over medium-high heat.",
+      " Add minced garlic and grated ginger to the skillet, and cook until fragrant.",
+      " Add sliced carrots, bell peppers, broccoli florets, and snap peas to the skillet. Stir-fry for 4-5 minutes until vegetables are crisp-tender.",
+      " Pour soy sauce over the vegetables and stir to combine. Cook for an additional 1-2 minutes.",
+      " Remove the skillet from heat and serve the stir-fried vegetables over steamed rice.",
+      " Garnish with sesame seeds or sliced green onions, if desired.",
+      " Serve hot and enjoy your delicious Vegetable Stir-Fry!",
+    ],
   },
   {
     title: "Homemade Margherita Pizza",
     description:
       "A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, basil leaves, and a drizzle of olive oil.",
     image:
-      "https://ohsweetbasil.com/wp-content/uploads/how-to-make-authentic-margherita-pizza-at-home-recipe-4-1024x1536.jpg",
+      "https://ohsweetbasil.com/wp-content/uploads/how-to-make-authentic-margherita-pizza-at-home-recipe-4-1024x153jpg",
     ingredients: [
       { name: "Pizza dough", quantity: "1 ball" },
       { name: "Tomatoes", quantity: "2, thinly sliced" },
@@ -89,25 +127,25 @@ const recipes = [
       { name: "Black pepper", quantity: "To taste" },
     ],
     cookingMethod: [
-      "1. Preheat your oven to the highest temperature setting, usually around 475-500°F (245-260°C).",
-      "2. Roll out the pizza dough on a floured surface to your desired thickness.",
-      "3. Transfer the rolled-out dough to a baking sheet or pizza stone lined with parchment paper.",
-      "4. Drizzle olive oil over the dough and spread it evenly with a pastry brush.",
-      "5. Arrange the thinly sliced tomatoes evenly over the dough, leaving a small border around the edges.",
-      "6. Tear the fresh mozzarella cheese into small pieces and distribute them evenly over the tomatoes.",
-      "7. Season the pizza with salt and black pepper to taste.",
-      "8. Slide the pizza into the preheated oven and bake for 10-12 minutes, or until the crust is golden brown and the cheese is melted and bubbly.",
-      "9. Remove the pizza from the oven and immediately scatter fresh basil leaves over the top.",
-      "10. Drizzle with additional olive oil, if desired, and serve hot.",
-      "11. Slice and enjoy your Homemade Margherita Pizza!"
-    ]
+      " Preheat your oven to the highest temperature setting, usually around 475-500°F (245-260°C).",
+      " Roll out the pizza dough on a floured surface to your desired thickness.",
+      " Transfer the rolled-out dough to a baking sheet or pizza stone lined with parchment paper.",
+      " Drizzle olive oil over the dough and spread it evenly with a pastry brush.",
+      " Arrange the thinly sliced tomatoes evenly over the dough, leaving a small border around the edges.",
+      " Tear the fresh mozzarella cheese into small pieces and distribute them evenly over the tomatoes.",
+      " Season the pizza with salt and black pepper to taste.",
+      " Slide the pizza into the preheated oven and bake for 10-12 minutes, or until the crust is golden brown and the cheese is melted and bubbly.",
+      " Remove the pizza from the oven and immediately scatter fresh basil leaves over the top.",
+      " Drizzle with additional olive oil, if desired, and serve hot.",
+      "1 Slice and enjoy your Homemade Margherita Pizza!",
+    ],
   },
   {
     title: "Beef Tacos",
     description:
       "Tender seasoned beef served in warm tortillas with shredded lettuce, diced tomatoes, grated cheese, and a dollop of sour cream.",
     image:
-      "https://smartinthekitchen.com/wp-content/uploads/2020/04/Smart-In-The-Kitchen-Ground-Meat-Taco-Recipe-3-768x1154.jpg",
+      "https://smartinthekitchen.com/wp-content/uploads/2020/04/Smart-In-The-Kitchen-Ground-Meat-Taco-Recipe-3-768x115jpg",
     ingredients: [
       { name: "Beef sirloin", quantity: "500g, thinly sliced" },
       { name: "Taco seasoning", quantity: "1 packet" },
@@ -118,21 +156,21 @@ const recipes = [
       { name: "Sour cream", quantity: "1/2 cup" },
     ],
     cookingMethod: [
-      "1. Heat a skillet over medium-high heat. Add thinly sliced beef sirloin to the skillet and cook until browned and cooked through, about 5-7 minutes.",
-      "2. Sprinkle taco seasoning over the beef and stir to coat evenly. Cook for an additional 2-3 minutes.",
-      "3. Warm the tortillas in a dry skillet or microwave according to package instructions.",
-      "4. Assemble the tacos by placing a spoonful of seasoned beef in the center of each tortilla.",
-      "5. Top with shredded lettuce, diced tomatoes, and grated cheddar cheese.",
-      "6. Finish with a dollop of sour cream on each taco.",
-      "7. Serve immediately, and enjoy your flavorful Beef Tacos!"
-    ]
+      " Heat a skillet over medium-high heat. Add thinly sliced beef sirloin to the skillet and cook until browned and cooked through, about 5-7 minutes.",
+      " Sprinkle taco seasoning over the beef and stir to coat evenly. Cook for an additional 2-3 minutes.",
+      " Warm the tortillas in a dry skillet or microwave according to package instructions.",
+      " Assemble the tacos by placing a spoonful of seasoned beef in the center of each tortilla.",
+      " Top with shredded lettuce, diced tomatoes, and grated cheddar cheese.",
+      " Finish with a dollop of sour cream on each taco.",
+      " Serve immediately, and enjoy your flavorful Beef Tacos!",
+    ],
   },
   {
     title: "Caprese Salad",
     description:
       "A simple and elegant salad made with fresh tomatoes, mozzarella cheese, basil leaves, olive oil, and balsamic glaze.",
     image:
-      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/7/18/0/WU0314H_caprese-salad-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1530799895174.jpeg",
+      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/7/18/0/WU0314H_caprese-salad-recipe_s4xjpg.rend.hgtvcom.82620.suffix/153079989517jpeg",
     ingredients: [
       { name: "Tomatoes", quantity: "2, sliced" },
       { name: "Fresh mozzarella cheese", quantity: "200g, sliced" },
@@ -143,20 +181,20 @@ const recipes = [
       { name: "Black pepper", quantity: "To taste" },
     ],
     cookingMethod: [
-      "1. Arrange the sliced tomatoes and fresh mozzarella cheese on a serving platter, alternating between them.",
-      "2. Tuck fresh basil leaves in between the tomato and cheese slices.",
-      "3. Drizzle olive oil over the salad, followed by balsamic glaze.",
-      "4. Season with salt and black pepper to taste.",
-      "5. Serve immediately as a light and flavorful appetizer or side dish.",
-      "6. Enjoy your simple yet elegant Caprese Salad!"
-    ]
+      " Arrange the sliced tomatoes and fresh mozzarella cheese on a serving platter, alternating between them.",
+      " Tuck fresh basil leaves in between the tomato and cheese slices.",
+      " Drizzle olive oil over the salad, followed by balsamic glaze.",
+      " Season with salt and black pepper to taste.",
+      " Serve immediately as a light and flavorful appetizer or side dish.",
+      " Enjoy your simple yet elegant Caprese Salad!",
+    ],
   },
   {
     title: "Shrimp Scampi",
     description:
       "Juicy shrimp sautéed in garlic butter and white wine sauce, served over a bed of linguine pasta.",
     image:
-      "https://homemadehooplah.com/wp-content/uploads/2022/08/shrimp-scampi-linguine-1-768x1151.jpg",
+      "https://homemadehooplah.com/wp-content/uploads/2022/08/shrimp-scampi-linguine-1-768x115jpg",
     ingredients: [
       { name: "Linguine pasta", quantity: "250g" },
       { name: "Shrimp", quantity: "500g, peeled and deveined" },
@@ -169,25 +207,25 @@ const recipes = [
       { name: "Black pepper", quantity: "To taste" },
     ],
     cookingMethod: [
-      "1. Cook the linguine pasta according to the package instructions until al dente. Drain and set aside.",
-      "2. In a large skillet, melt butter over medium heat. Add minced garlic and cook until fragrant.",
-      "3. Add peeled and deveined shrimp to the skillet and cook until pink and opaque, about 2-3 minutes per side.",
-      "4. Remove the shrimp from the skillet and set aside.",
-      "5. Deglaze the skillet with white wine, scraping up any browned bits from the bottom.",
-      "6. Add lemon juice to the skillet and bring the sauce to a simmer.",
-      "7. Return the cooked shrimp to the skillet and toss to coat in the sauce.",
-      "8. Season with chopped parsley, salt, and black pepper to taste.",
-      "9. Serve the shrimp scampi over the cooked linguine pasta.",
-      "10. Garnish with additional chopped parsley and lemon wedges, if desired.",
-      "11. Enjoy your delicious Shrimp Scampi!"
-    ]
+      " Cook the linguine pasta according to the package instructions until al dente. Drain and set aside.",
+      " In a large skillet, melt butter over medium heat. Add minced garlic and cook until fragrant.",
+      " Add peeled and deveined shrimp to the skillet and cook until pink and opaque, about 2-3 minutes per side.",
+      " Remove the shrimp from the skillet and set aside.",
+      " Deglaze the skillet with white wine, scraping up any browned bits from the bottom.",
+      " Add lemon juice to the skillet and bring the sauce to a simmer.",
+      " Return the cooked shrimp to the skillet and toss to coat in the sauce.",
+      " Season with chopped parsley, salt, and black pepper to taste.",
+      " Serve the shrimp scampi over the cooked linguine pasta.",
+      " Garnish with additional chopped parsley and lemon wedges, if desired.",
+      "1 Enjoy your delicious Shrimp Scampi!",
+    ],
   },
   {
     title: "Beef Stir-Fry",
     description:
       "Tender slices of beef stir-fried with colorful vegetables in a savory sauce, served over steamed rice.",
     image:
-      "https://playswellwithbutter.com/wp-content/uploads/2022/02/Beef-and-Vegetable-Stir-Fry-15.jpg",
+      "https://playswellwithbutter.com/wp-content/uploads/2022/02/Beef-and-Vegetable-Stir-Fry-1jpg",
     ingredients: [
       { name: "Beef sirloin", quantity: "500g, thinly sliced" },
       { name: "Broccoli florets", quantity: "1 cup" },
@@ -200,49 +238,49 @@ const recipes = [
       { name: "Cooked rice", quantity: "2 cups, for serving" },
     ],
     cookingMethod: [
-      "1. Heat sesame oil in a large skillet or wok over high heat.",
-      "2. Add minced garlic and grated ginger to the skillet, and cook until fragrant.",
-      "3. Add thinly sliced beef sirloin to the skillet and stir-fry until browned and cooked through, about 2-3 minutes.",
-      "4. Remove the beef from the skillet and set aside.",
-      "5. In the same skillet, add sliced carrots, bell peppers, and broccoli florets. Stir-fry for 4-5 minutes until vegetables are crisp-tender.",
-      "6. Return the cooked beef to the skillet and toss everything together.",
-      "7. Pour soy sauce over the beef and vegetables, and stir to combine.",
-      "8. Cook for an additional 1-2 minutes, until heated through.",
-      "9. Serve the beef stir-fry over steamed rice.",
-      "10. Garnish with sliced green onions or sesame seeds, if desired.",
-      "11. Enjoy your flavorful Beef Stir-Fry!"
-    ]
-  },
-  {
-    title: "Chocolate Chip Cookies",
-    description:
-      "Classic homemade cookies loaded with chocolate chips, perfect for a sweet treat.",
-    image:
-      "https://handletheheat.com/wp-content/uploads/2023/06/peanut-butter-chocolate-chip-cookies-SQUARE.jpg",
-    ingredients: [
-      { name: "All-purpose flour", quantity: "2 1/4 cups" },
-      { name: "Butter", quantity: "1 cup, softened" },
-      { name: "Brown sugar", quantity: "3/4 cup" },
-      { name: "Granulated sugar", quantity: "3/4 cup" },
-      { name: "Eggs", quantity: "2" },
-      { name: "Vanilla extract", quantity: "1 teaspoon" },
-      { name: "Baking soda", quantity: "1 teaspoon" },
-      { name: "Salt", quantity: "1/2 teaspoon" },
-      { name: "Chocolate chips", quantity: "2 cups" },
+      " Heat sesame oil in a large skillet or wok over high heat.",
+      " Add minced garlic and grated ginger to the skillet, and cook until fragrant.",
+      " Add thinly sliced beef sirloin to the skillet and stir-fry until browned and cooked through, about 2-3 minutes.",
+      " Remove the beef from the skillet and set aside.",
+      " In the same skillet, add sliced carrots, bell peppers, and broccoli florets. Stir-fry for 4-5 minutes until vegetables are crisp-tender.",
+      " Return the cooked beef to the skillet and toss everything together.",
+      " Pour soy sauce over the beef and vegetables, and stir to combine.",
+      " Cook for an additional 1-2 minutes, until heated through.",
+      " Serve the beef stir-fry over steamed rice.",
+      " Garnish with sliced green onions or sesame seeds, if desired.",
+      "1 Enjoy your flavorful Beef Stir-Fry!",
     ],
-    cookingMethod: [
-      "1. Preheat your oven to 375°F (190°C). Line baking sheets with parchment paper.",
-      "2. In a large mixing bowl, cream together softened butter, brown sugar, and granulated sugar until light and fluffy.",
-      "3. Beat in eggs, one at a time, then stir in vanilla extract.",
-      "4. In a separate bowl, combine all-purpose flour, baking soda, and salt.",
-      "5. Gradually add the dry ingredients to the wet ingredients, mixing until just combined.",
-      "6. Fold in chocolate chips until evenly distributed throughout the cookie dough.",
-      "7. Drop rounded tablespoons of dough onto the prepared baking sheets, spacing them about 2 inches apart.",
-      "8. Bake in the preheated oven for 8-10 minutes, or until the edges are lightly golden brown.",
-      "9. Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.",
-      "10. Enjoy your delicious homemade Chocolate Chip Cookies!"
-    ]
   },
+  // {
+  //   title: "Chocolate Chip Cookies",
+  //   description:
+  //     "Classic homemade cookies loaded with chocolate chips, perfect for a sweet treat.",
+  //   image:
+  //     "https://handletheheat.com/wp-content/uploads/2023/06/peanut-butter-chocolate-chip-cookies-SQUARE.jpg",
+  //   ingredients: [
+  //     { name: "All-purpose flour", quantity: "2 1/4 cups" },
+  //     { name: "Butter", quantity: "1 cup, softened" },
+  //     { name: "Brown sugar", quantity: "3/4 cup" },
+  //     { name: "Granulated sugar", quantity: "3/4 cup" },
+  //     { name: "Eggs", quantity: "2" },
+  //     { name: "Vanilla extract", quantity: "1 teaspoon" },
+  //     { name: "Baking soda", quantity: "1 teaspoon" },
+  //     { name: "Salt", quantity: "1/2 teaspoon" },
+  //     { name: "Chocolate chips", quantity: "2 cups" },
+  //   ],
+  //   cookingMethod: [
+  //     " Preheat your oven to 375°F (190°C). Line baking sheets with parchment paper.",
+  //     " In a large mixing bowl, cream together softened butter, brown sugar, and granulated sugar until light and fluffy.",
+  //     " Beat in eggs, one at a time, then stir in vanilla extract.",
+  //     " In a separate bowl, combine all-purpose flour, baking soda, and salt.",
+  //     " Gradually add the dry ingredients to the wet ingredients, mixing until just combined.",
+  //     " Fold in chocolate chips until evenly distributed throughout the cookie dough.",
+  //     " Drop rounded tablespoons of dough onto the prepared baking sheets, spacing them about 2 inches apart.",
+  //     " Bake in the preheated oven for 8-10 minutes, or until the edges are lightly golden brown.",
+  //     " Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.",
+  //     " Enjoy your delicious homemade Chocolate Chip Cookies!",
+  //   ],
+  // },
 ];
 
 export default recipes;

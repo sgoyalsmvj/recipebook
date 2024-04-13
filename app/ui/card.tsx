@@ -22,7 +22,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
     <Link href={recipe.title}>
       <Card
         hoverable
-        style={{ width: 350, height: 600, margin: "20px" }}
+        style={{ width: 350, height: 400, margin: "20px"}}
         cover={
           <img
             className="w-full object-cover h-[200px]"
@@ -34,14 +34,14 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
         <div style={{ padding: "12px 16px" }}>
           <Title level={4}>{recipe.title}</Title>
           <Paragraph>{recipe.description}</Paragraph>
-          <Title level={5}>Ingredients:</Title>
+          {/* <Title level={5}>Ingredients:</Title>
           <ul>
             {recipe.ingredients.map((ingredient, index) => (
               <li
                 key={index}
               >{`${ingredient.name}: ${ingredient.quantity}`}</li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       </Card>
     </Link>

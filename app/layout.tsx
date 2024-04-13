@@ -18,14 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex items-center justify-center">
-          <div>
-            <Image className="m-3" src={logo} alt="logo" width={100} height={100}/>
-          </div>
-          <div className="text-center w-full relative right-24">
-            <h1 className="text-3xl font-semibold ">Recipe-Book</h1>
-          </div>
-        </div>
+       
         {children}
       </body>
     </html>
