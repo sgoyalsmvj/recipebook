@@ -16,10 +16,7 @@ import { Recipe } from "../ui/card";
 const { Option } = Select;
 const props: UploadProps = {
   name: "file",
-  action: "https://660d2bd96ddfa2943b33731c.mockapi.io/api/upload",
-  headers: {
-    authorization: "authorization-text",
-  },
+  action: "/api/upload",
   onChange(info) {
     if (info.file.status !== "uploading") {
       console.log(info.file, info.fileList);
@@ -114,13 +111,14 @@ const AddRecipeForm: React.FC = () => {
           </Form.Item>
 
           <Form.Item
-            label="Image"
+            label="Image Link"
             name="image"
             // rules={[{ message: "Please enter the image URL" }]}
           >
-            <Upload {...props}>
+            <Input/>
+            {/* <Upload {...props}>
               <Button icon={<UploadOutlined />}>Click to Upload</Button>
-            </Upload>
+            </Upload> */}
           </Form.Item>
 
           <Form.List name="ingredients">
